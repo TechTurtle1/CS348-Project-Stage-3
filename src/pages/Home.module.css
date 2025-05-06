@@ -1,0 +1,42 @@
+.body {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.clickerButton {
+    width: 100px;
+    height: 50px;
+    background-color: lightgray;
+    color: black;
+  }
+
+.playerPane {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  width: 100%;
+  height: 80%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playerHeader {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 95%;
+    margin-top: 20px;
+    height: 10%;
+}
+
+.playerBody {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 95%;
+    height: 80%;
+    margin-top: 20px;
+}

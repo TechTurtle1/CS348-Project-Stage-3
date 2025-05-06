@@ -1,0 +1,32 @@
+.body {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  align-items:center;
+  text-align:center;
+}
+
+.leftSide {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.middle {
+  width: 0%;
+  height: 100%;
+  border-right: 1px solid black;
+
+}
+
+.rightSide {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
